@@ -9,5 +9,5 @@ A notebook to analyse how similar is the distribution of two data sets
 ### 3. XGB CV
 A set of templates for binary/ multiclass/ regression XGBoost models with crossvalidation hyperparameter tuning
 
-### NN Ensemble
+### 4. NN Ensemble
 A set of templates for binary/ regression Keras models with ensembling 
