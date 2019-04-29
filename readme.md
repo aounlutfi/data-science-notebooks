@@ -11,3 +11,6 @@ A set of templates for binary/ multiclass/ regression XGBoost models with crossv
 
 ### 4. NN Ensemble
 A set of templates for binary/ regression Keras models with ensembling 
+
+### 5. NN Pipeline
+A set of template for binay/ regression Keras models with sklearn pipelines bundled into a distriutable tar.gz archive
