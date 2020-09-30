@@ -1,16 +1,33 @@
-## A collection of noteboks to quickly start with ML and DL
+# A collection of notebooks to quickly start with ML and DL
 
-### 1. Analysis
-A notebook that contains a series of tests that must be done in every data science project.
+## Data
+A folder containing the following datasets:
+* Boston housing: numeric features/ regression data
+* Iris: numeric features/ multiclass label data
+* titanic: numeric and categorical features/ binary label data
 
-### 2. Distribution Test
-A notebook to analyse how similar is the distribution of two data sets
+## Requirements
+`requirements.txt` includes all the required libraries to run the notbooks, note that not all the libraries are required in every notebook.
 
-### 3. XGB CV
-A set of templates for binary/ multiclass/ regression XGBoost models with crossvalidation hyperparameter tuning
+## Notebooks
 
-### 4. NN Ensemble
-A set of templates for binary/ regression Keras models with ensembling 
+### Analysis:
+A notebook for generic EDA
 
-### 5. NN Pipeline
-A set of template for binay/ regression Keras models with sklearn pipelines bundled into a distriutable tar.gz archive
+### Catboost Hyper Param Tuning:
+A notebook with sample code for hyperparameter tuning of a Catboost model
+
+### Distribution Test:
+A notebook with code to test the distribution of two datasets
+
+### Image Augmentation:
+A notebook with code to augment a sample image folder based classification data set using a series of transformations
+
+### Image Classification: 
+A notebook with sample code for a deep learning based image classification model that trains on a folder based dataset
+
+### Sklearn Auto Classifier:
+A notebook with sample code for a sklearn based auto ml search and hyperparameter tuning for binary/ multiclass classification.
+
+### Sklearn Auto Regression:
+A notebook with sample code for a sklearn based auto ml search and hyperparameter tuning for regression.
